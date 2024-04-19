@@ -57,7 +57,7 @@ require 'php/form.php';
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.php">
             <span>
-              Envision food
+              Envision 
             </span>
           </a>
 
@@ -159,10 +159,10 @@ require 'php/form.php';
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                    Envision food  nhami nhami
+                    Envision 
                     </h1>
                     <p>
-                      When you're in Cambodia and you need a quick and delicious meal, look no further than Mira! Our fast food is made with fresh, local ingredients and cooked to perfection.
+                    
                     <div class="btn-box">
                       <a href="" class="btn1">
                         Order Now
@@ -179,10 +179,10 @@ require 'php/form.php';
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1 style="color: rgb(72, 239, 239);">
-                      Fast Food Restaurant
+                      Fast Respone
                     </h1>
                     <p style="color: rgb(216, 200, 200)">
-                      Come to Envision food  for a taste of Cambodia's fast food scene! Our menu features all your favorite dishes, from classic burgers and fries to more unique Cambodian specialties.
+                     
                     </p>
                     <div class="btn-box">
                       <a href="https://www.instagram.com/rameee_are_mee/?fbclid=IwAR2DuuOo_rQ5YONhWfyEeseipi-niNNOpDx3KFjAxcCrAmMaqk4FtpaU3hg" class="btn1">
@@ -200,10 +200,10 @@ require 'php/form.php';
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
                     <h1>
-                      street Food in Cambodia
+                      Good Price , Best Quality
                     </h1>
                     <p>
-                      Mira is the perfect place to take your family when you're looking for a fun and casual meal. Our kids' menu is full of delicious and kid-friendly options, and our play area will keep them entertained for hours
+                     
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn1">
@@ -404,7 +404,7 @@ require 'php/form.php';
 
       <div class="filters-content">
         <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all Lok-lak">
+          <!-- <div class="col-sm-6 col-lg-4 all Lok-lak">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -479,7 +479,7 @@ require 'php/form.php';
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <?=   createformTwo('Skrit',' Lok-lak','Skrit', '120$',''); ?>
           <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$','Earrings are not only fashion accessories but also have symbolic meanings in many cultures. They can represent love, prosperity, protection, spirituality,'); ?>
           <?=   createformOne('Card',' lort-Cha' ,'Card', '4.5$','For office workers'); ?>
@@ -506,11 +506,11 @@ require 'php/form.php';
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We Are Envision food
+                We Are Envision 
               </h2>
             </div>
             <p>
-              Envision food is the perfect place to go for a quick and affordable meal when you're on the go. Our food is always fresh and delicious, and our service is fast and friendly.
+              Envision is the best E-market in cambodia and our service is fast and friendly.
             </p>
             <a href="">
               Read More
@@ -528,7 +528,7 @@ require 'php/form.php';
     <div class="container">
       <div class="heading_container">
         <h2>
-          Book A Table
+         Comment us
         </h2>
       </div>
       <div class="row">
@@ -599,7 +599,7 @@ require 'php/form.php';
             <div class="box">
               <div class="detail-box">
                 <p>
-                  Hello, I’m Ramy, and I’m a huge fan of Khmer food. I’ve been to Cambodia a few times, and I always fall in love with the amazing and diverse dishes that the country has to offer. Today, I want to share with you some of my favorite Khmer foods that you should definitely try if you ever visit Cambodia.I want to introduce you to amok, which is a Cambodian curry dish. Amok is made with fish or chicken that is cooked in a rich coconut milk sauce with kroeung, which is a fragrant paste of lemongrass, galangal, turmeric, garlic, and other spices. Amok is usually steamed in banana leaves and served with rice. Amok is very creamy and aromatic, and it’s one of the most traditional dishes of Cambodian cuisine.
+               
                 </p>
                 <h6>
                   Ramy.
@@ -614,9 +614,7 @@ require 'php/form.php';
             <div class="box">
               <div class="detail-box">
                 <p>
-                  Hi, I’m Ice Bear, and I’m a big fan of Khmer food. I’ve been to Cambodia several times, and I always enjoy the delicious and diverse dishes that the country has to offer. Today, I want to share with you some of my favorite Khmer foods that you should definitely try if you ever visit Cambodia.
 
-First, let me tell you about nom pang, which is a Cambodian sandwich. Nom pang is made with a crispy baguette that is filled with various meats, such as pork, chicken, or beef, and topped with fresh vegetables, such as cucumber, carrot, onion, and cilantro. The sandwich is also seasoned with mayonnaise, pate, soy sauce, and chili sauce. Nom pang is a perfect snack for any time of the day, and you can find it at many street stalls or cafes in Cambodia. Nom pang is very satisfying and flavorful, and it’s one of the most popular street foods in Cambodia.
                 </p>
                 <h6>
                   Ice Bear.
@@ -668,10 +666,10 @@ First, let me tell you about nom pang, which is a Cambodian sandwich. Nom pang i
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
             <a href="" class="footer-logo">
-              Envision food
+              Envision 
             </a>
             <p>
-              Our food is fresh, flavorful, and affordable.
+            Envision service is fast and friendly.
             </p>
             <div class="footer_social">
               <a href="https://www.facebook.com/profile.php?id=100023470206503&mibextid=ZbWKwL">
@@ -700,14 +698,14 @@ First, let me tell you about nom pang, which is a Cambodian sandwich. Nom pang i
             Everyday
           </p>
           <p>
-            7:30 Am -9:30 Pm
+          24 Hours / week
           </p>
         </div>
       </div>
       <div class="footer-info">
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://php.design/">Ramy</a><br><br>
+          <a href="https://php.design/">Haha lol</a><br><br>
         </p>
       </div>
     </div>
