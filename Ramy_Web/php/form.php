@@ -1,6 +1,6 @@
 <?php
 require_once 'php/name.php';
-function createformOne($parameter1 , $type , $name ,$price)
+function createformOne($parameter1 , $type , $name ,$price ,$description)
 {
   
 $Tagname = new Product();
@@ -17,7 +17,7 @@ $TagenameProductTwo = $Tagname->GetName('ProductTwo');
                   '. $name. '
                 </h5>
                 <p>
-                '.  '
+                '. $description.  '
                 </p>
                 <div class="options">
                     <h6>
@@ -55,7 +55,7 @@ $TagenameProductTwo = $Tagname->GetName('ProductTwo');
 return $form;
 }
 
-function createformTwo($parameter2, $type, $name ,$price)
+function createformTwo($parameter2, $type, $name ,$price, $description)
 {
 $Tagname = new Product();
 $TagenameProduct = $Tagname->GetName('ProductONE');
@@ -71,7 +71,7 @@ $TagenameProductTwo = $Tagname->GetName('ProductTwo');
                   '.$name.'
                 </h5>
                 <p>
-                  '.'
+                  '. $description.'
                 </p>
                 <div class="options">
                     <h6>

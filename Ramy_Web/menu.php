@@ -17,7 +17,7 @@ require 'php/form.php';
   <meta name="author" content="food" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title> MiRa </title>
+  <title>  Envision</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -244,53 +244,40 @@ require 'php/form.php';
               </div>
             </div>
           </div>
-          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$'); ?>
-          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$'); ?>
-          <?=   createformTwo('earing',' amok','earing', '72$'); ?>
-          <?=   createformTwo('Skrit',' amok','Skrit', '120$'); ?>
-          <?=   createformOne('Card',' kuy_teav' ,'Card', '4.5$'); ?>
-          <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$'); ?>
-          <?=   createformOne('Card',' lort-Cha','Card', '4.5$'); ?>
-          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$'); ?>
-          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$'); ?>
-          <?=   createformTwo('ring',' banh-chev','Crystal Ring', '55$'); ?>
-          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$'); ?>
-          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$'); ?>
-          <?=   createformTwo('ring',' banh-chev','Khmer-Ring', '55$'); ?>
-          <?=   createformTwo('ring',' banh-chev','Khmer-Ring', '55$'); ?>
-          <?=   createformTwo('ring',' banh-chev','Khmer-Ring', '55$'); ?>
-          <?=   createformTwo('ring',' banh-chev','Crystal Ring', '55$'); ?>
-          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$'); ?>
-          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$'); ?>
-          <?=   createformTwo('ring',' banh-chev','Khmer-Ring', '55$'); ?>
-          <?=   createformTwo('ring',' banh-chev','Khmer-Ring', '55$'); ?>
-          <?=   createformTwo('ring',' banh-chev','Khmer-Ring', '55$'); ?>
-          <?=   createformTwo('earing',' amok','earing', '72$'); ?>
-          <?=   createformTwo('Skrit',' amok','Skrit', '120$'); ?>
-          <?=   createformOne('Card',' kuy_teav' ,'Card', '4.5$'); ?>
-          <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$'); ?>
-          <?=   createformOne('Card',' lort-Cha','Card', '4.5$'); ?>
-          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$'); ?>
-          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$'); ?>
-          <?=   createformTwo('earing',' amok','earing', '72$'); ?>
-          <?=   createformTwo('Skrit',' amok','Skrit', '120$'); ?>
-          <?=   createformOne('Card',' kuy_teav' ,'Card', '4.5$'); ?>
-          <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$'); ?>
-          <?=   createformOne('Card',' lort-Cha','Card', '4.5$'); ?>
-          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$'); ?>
-          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$'); ?>
-          <?=   createformTwo('earing',' amok','earing', '72$'); ?>
-          <?=   createformTwo('Skrit',' amok','Skrit', '120$'); ?>
-          <?=   createformOne('Card',' kuy_teav' ,'Card', '4.5$'); ?>
-          <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$'); ?>
-          <?=   createformOne('Card',' lort-Cha','Card', '4.5$'); ?>
-          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$'); ?>
-          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$'); ?>
-          <?=   createformTwo('earing',' amok','earing', '72$'); ?>
-          <?=   createformTwo('Skrit',' amok','Skrit', '120$'); ?>
-          <?=   createformOne('Card',' kuy_teav' ,'Card', '4.5$'); ?>
-          <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$'); ?>
-          <?=   createformOne('Card',' lort-Cha','Card', '4.5$'); ?>     
+       
+          <?=   createformTwo('earing',' amok','earing', '72$','Earrings are not only fashion accessories but also have symbolic meanings in many cultures. They can represent love, prosperity, protection, spirituality,'); ?>
+          <?=   createformTwo('Skrit',' amok','Skrit', '120$',''); ?>
+          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$','. The sampot is a significant part of Khmer culture and is worn on various occasions, including weddings, religious ceremonies, and traditional festivals.'); ?>
+          <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$','Earrings are not only fashion accessories but also have symbolic meanings in many cultures. They can represent love, prosperity, protection, spirituality,'); ?>
+          <?=   createformOne('Card',' lort-Cha' ,'Card', '4.5$','For office workers'); ?>
+          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$','It serves as a convenient organizer for essential belongings, providing a compact and portable way to keep them secure and easily accessible.'); ?>
+          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$','. The sampot is a significant part of Khmer culture and is worn on various occasions, including weddings, religious ceremonies, and traditional festivals.'); ?>
+          <?=   createformTwo('earing',' amok','earing', '72$',''); ?>
+          <?=   createformTwo('Skrit',' amok','Skrit', '120$',''); ?>
+          <?=   createformTwo('ring',' amok','Khmer-ring', '120$','The "Cambodia Ring" is a term that might refer to different things depending on context. One possibility is the "Kbach kun baiy" or "Khmer boxing" which is also known as Pradal Serey, a Cambodian martial art.'); ?>
+          <?=   createformOne('Card',' lort-Cha' ,'Card', '4.5$','For office workers'); ?>
+          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$','It serves as a convenient organizer for essential belongings, providing a compact and portable way to keep them secure and easily accessible.'); ?>
+          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$','. The sampot is a significant part of Khmer culture and is worn on various occasions, including weddings, religious ceremonies, and traditional festivals.'); ?>
+          <?=   createformTwo('ring',' banh-chev','Khmer-ring', '120$','The "Cambodia Ring" is a term that might refer to different things depending on context. One possibility is the "Kbach kun baiy" or "Khmer boxing" which is also known as Pradal Serey, a Cambodian martial art.'); ?>
+          <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$',''); ?>
+          <?=   createformOne('Card',' lort-Cha','Card', '4.5$',''); ?>   
+          <?=   createformTwo('ring',' amok','Khmer-ring', '120$','The "Cambodia Ring" is a term that might refer to different things depending on context. One possibility is the "Kbach kun baiy" or "Khmer boxing" which is also known as Pradal Serey, a Cambodian martial art.'); ?>
+          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$','It serves as a convenient organizer for essential belongings, providing a compact and portable way to keep them secure and easily accessible.'); ?>
+          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$','. The sampot is a significant part of Khmer culture and is worn on various occasions, including weddings, religious ceremonies, and traditional festivals.'); ?>
+          <?=   createformTwo('earing',' amok','earing', '72$','Earrings are not only fashion accessories but also have symbolic meanings in many cultures. They can represent love, prosperity, protection, spirituality,'); ?>
+          <?=   createformTwo('ring',' banh-chev','Khmer-ring', '120$','The "Cambodia Ring" is a term that might refer to different things depending on context. One possibility is the "Kbach kun baiy" or "Khmer boxing" which is also known as Pradal Serey, a Cambodian martial art.'); ?>
+          <?=   createformTwo('Skrit',' amok','Skrit', '120$',''); ?>
+          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$','. The sampot is a significant part of Khmer culture and is worn on various occasions, including weddings, religious ceremonies, and traditional festivals.'); ?>
+          <?=   createformTwo('earing',' Nomb_banh_chok','Card', '4.5$','Earrings are not only fashion accessories but also have symbolic meanings in many cultures. They can represent love, prosperity, protection, spirituality,'); ?>
+          <?=   createformOne('Card',' lort-Cha','Card', '4.5$',''); ?>
+          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$','It serves as a convenient organizer for essential belongings, providing a compact and portable way to keep them secure and easily accessible.'); ?>
+          <?=   createformTwo('Skrit', ' Lok-lak','Skrit','99$','. The sampot is a significant part of Khmer culture and is worn on various occasions, including weddings, religious ceremonies, and traditional festivals.'); ?>
+          <?=   createformTwo('earing',' amok','earing', '72$',''); ?>
+          <?=   createformTwo('Skrit',' amok','Skrit', '120$',''); ?>
+          <?=   createformTwo('ring',' banh-chev','Khmer-ring', '120$','The "Cambodia Ring" is a term that might refer to different things depending on context. One possibility is the "Kbach kun baiy" or "Khmer boxing" which is also known as Pradal Serey, a Cambodian martial art.'); ?>
+          <?=   createformTwo('ring',' banh-chev','Khmer-ring', '120$','The "Cambodia Ring" is a term that might refer to different things depending on context. One possibility is the "Kbach kun baiy" or "Khmer boxing" which is also known as Pradal Serey, a Cambodian martial art.'); ?>
+          <?=   createformOne('Card',' lort-Cha' ,'Card', '4.5$','For office workers'); ?>
+          <?=   createformTwo('Wellet', ' kuy_teav' , 'Wellet', '23$','It serves as a convenient organizer for essential belongings, providing a compact and portable way to keep them secure and easily accessible.'); ?>
   </section>
 
   <!-- end food section -->
@@ -303,7 +290,7 @@ require 'php/form.php';
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="images/zin-banhchev.png" alt="banh chev">
+            <img src="images/LOGOteam1.png" alt="banh chev">
           </div>
         </div>
         <div class="col-md-6">
