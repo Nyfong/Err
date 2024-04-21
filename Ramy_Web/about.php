@@ -185,8 +185,8 @@
             </font>
             </ol>
             </p>
-            <a href="">
-              Read More
+            <a href="menu.php">
+              Shopping
             </a>
           </div>
         </div>
