@@ -41,11 +41,11 @@ require 'php/form.php';
 </head>
 
 <body>
-  <script>
+  <!-- <script>
     document.addEventListener('contextmenu', function(e) {
         e.preventDefault();
     });
-    </script>
+    </script> -->
   <div class="hero_area">
     <div class="bg-box">
     
@@ -78,7 +78,7 @@ require 'php/form.php';
               </li>
             </ul>
             <div class="user_option">
-              <a href="" class="user_link">
+              <a href="profile.php"class="user_link">
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
               <a class="cart_link" href="#">
@@ -137,7 +137,7 @@ require 'php/form.php';
               </a>
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
+                  
                 </button>
               </form>
               <a href="" class="order_online">
@@ -162,18 +162,20 @@ require 'php/form.php';
                     Envision 
                     </h1>
                     <p>
-                    
-                    <div class="btn-box">
-                      <a href="" class="btn1">
-                        Order Now
-                      </a>
+                    <div style="border-radius:10px; color:black; font-weight:bolder; height:80px; width:300px;
+                    ">
+                    <input type="text" name=""  value ="" placeholder="Search" id="search"  style="border-radius: 30px; width:250px; padding-left:10px ; height:50px; margin:10px 0px;">
+                      <div class="result" id="re"  style="width: 250px; padding-top:20px; border:2px solid black; font-size:small; border-radius:0px 0px 20px; 
+                      height:100px; text-align:center;
+                      display:flex; justify-content:center;"></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item ">
+          <script src="js/search.js" ></script>
+          <!-- <div class="carousel-item ">
             <div class="container ">
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
@@ -193,8 +195,8 @@ require 'php/form.php';
                 </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
+          </div> -->
+          <!-- <div class="carousel-item">
             <div class="container ">
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
@@ -214,13 +216,13 @@ require 'php/form.php';
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="container">
           <ol class="carousel-indicators">
             <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-            <li data-target="#customCarousel1" data-slide-to="1"></li>
-            <li data-target="#customCarousel1" data-slide-to="2"></li>
+            <!-- <li data-target="#customCarousel1" data-slide-to="1"></li>
+            <li data-target="#customCarousel1" data-slide-to="2"></li> -->
           </ol>
         </div>
       </div>
@@ -732,6 +734,8 @@ require 'php/form.php';
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
+  <!-- for sreacrh -->
+
 
 </body>
 
