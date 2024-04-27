@@ -5,6 +5,22 @@ require 'php/name.php';
 <!DOCTYPE php>
 <php>
 <head>
+<script>
+function showHint(str) {
+  if (str.length == 0) { 
+    document.getElementById("txtHint").innerHTML = "";
+    return;
+  } else {
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("txtHint").innerHTML = this.responseText;
+      }
+    }
+    xmlhttp.open("GET", "search.php?q="+str, true);
+    xmlhttp.send();
+  }
+}</script>
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,11 +28,11 @@ require 'php/name.php';
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
   <meta name="keywords" content="MiRA" />
-  <meta name="description" content="street foos in Cambodia" />
+  <meta name="description" content="street food in Cambodia" />
   <meta name="author" content="food" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
-  <title>  Envision</title>
+  <title> Envision</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -32,6 +48,31 @@ require 'php/name.php';
   <link href="css/style.css?v=<?php echo time() ?>" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+  .search-container {
+    margin-top: 10%;
+    position: relative;
+  }
+  .nav_search-btn .fa-search {
+    color: black; 
+  }
+  .suggestion-item {
+      cursor: pointer;
+  }
+
+  #txtHint {
+    position: absolute;
+    width: calc(100% - 2px); 
+    border: none;
+    border-top: none;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+    top: 100%; 
+    left: 0; 
+  }
+</style>
+
 
 </head>
 
@@ -53,6 +94,17 @@ require 'php/name.php';
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
+
+          <form class="form-inline position-relative w-lg-50 ms-lg-4 ms-xl-9 mt-3 mt-lg-0" onsubmit="return false;">
+            <div class="search-container">
+              <input class="search fs-8 bg-transparent form-control" type="text" name="search" placeholder="search here..." onkeyup="showHint(this.value)"/>
+              <p><span id="txtHint"></span></p>
+            </div>
+            <div class="search-icon"> <span class="uil uil-search"></span></div>
+            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </form>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
