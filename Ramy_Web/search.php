@@ -6,6 +6,7 @@ $words = array(
     "Lengthang-Develop this","Card",
     "Envision",
     "Kuy_teav ", "Wellet",
+    "Nhom na ke",
     "Ring",
     "Thank Everyone for the project","Khmer-ring", "Neckless", 
 );
