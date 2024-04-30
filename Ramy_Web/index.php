@@ -128,7 +128,7 @@ function showHint(str) {
               </li>
             </ul>
             <div class="user_option">
-              <a href="profile.php"class="user_link">
+              <a href="./registration.php"class="user_link">
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
               <a class="cart_link" href="#">
@@ -185,11 +185,7 @@ function showHint(str) {
                   </g>
                 </svg>
               </a>
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  
-                </button>
-              </form>
+
               <a href="" class="order_online">
                 Order Online
               </a>
