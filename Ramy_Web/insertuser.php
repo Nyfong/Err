@@ -8,19 +8,19 @@ if(isset($_POST['submit'])) {
   $phone = $_POST['phone'];
   $birthday = $_POST['birthday'];
 
+
   $servername = "localhost";
-  $username = "root";
+  $username = "mamp";
   $password = "";
-  $dbname = "userinform  ";
+  $dbname = "RUPP";
 
   // Create connection
-  $conn = new mysqli($servername, $username, $password, $dbname);
+  $conn = mysqli_connect($servername, $username, $password, $database);
 
   // Check connection
-  if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-  }
-
+  if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
   // SQL query without quotes around column names
   $sql = "INSERT INTO registration (username, firstname, lastname, location, email, phone, birthday ) VALUES ('$username', '$firstname', '$lastname', '$location', '$email', '$phone', '$birthday' )";
 
@@ -29,7 +29,6 @@ if(isset($_POST['submit'])) {
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
   }
-
   // Close connection
   $conn->close();
 }

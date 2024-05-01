@@ -1,8 +1,9 @@
 <?php
+include_once 'registration.php';
 $servername = "localhost";
-$username = "root";
+$username = "mamp";
 $password = "";
-$database = "userinform";
+$database = "RUPP";
 
 // Attempt to connect to MySQL database
 $conn = mysqli_connect($servername, $username, $password, $database);

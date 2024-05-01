@@ -1,10 +1,10 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "mamp";
 $password = "";
-$dbname = "userinform";
+$dbname = "RUPP";
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname) ;
+$conn = new mysqli($servername, $username, $password, $dbname);
 //mysqli == is the class that php create defualt // there are so many methods over there to use.
  // Check connection
 if ($conn->connect_error) 
@@ -15,8 +15,7 @@ if ($conn->connect_error)
 
 $succes = "Import Succes";
 echo $succes;
-// $tableName = 'student';
-$sql ="SELECT * FROM registration ";
+$sql = "SELECT * FROM `registration` ";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

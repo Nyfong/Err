@@ -1,43 +1,3 @@
-<?php
-if(isset($_POST['submit'])) {
-  $username = $_POST['username'];
-  $firstname = $_POST['firstname'];
-  $lastname = $_POST['lastname'];
-  $location = $_POST['location'];
-  $email = $_POST['email'];
-  $phone = $_POST['phone'];
-//   $birthday = $_POST['birthday'];
-
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "userinform";
-
-  // Create connection
-  $conn = new mysqli($servername, $username, $password, $dbname);
-
-  // Check connection
-  if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-  }
-
-  // SQL query without quotes around column names
-  $sql = "INSERT INTO registration (username, firstname, lastname, location, email, phone) VALUES ('$username', '$firstname', '$lastname', '$location', '$email', '$phone'  )";
-
-  if ($conn->query($sql) === TRUE) {
-    // echo "New record created successfully";
-    include "./profile.php";
-    exit();
-  } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-  }
-
-  // Close connection
-  $conn->close();
-}
-?>
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,7 +19,8 @@ if(isset($_POST['submit'])) {
         <div class="row">
             <div class="col-xl-4">
                 <!-- Profile picture card-->
-                <form method="POST" enctype="multipart/form-data" action="./image.php">
+                <form method="POST" enctype="multipart/form-data"  action="Database_Registor_and_Image.php">
+                <!-- action="./image.php" -->
                 <div class="card mb-4 mb-xl-0">
                     <div class="card-header">Profile Picture</div>
                     <div class="card-body text-center">
@@ -77,7 +38,7 @@ if(isset($_POST['submit'])) {
             
             <div class="col-xl-8">
                 <!-- Account details card-->
-                <form action="#" method="post">
+                <form action="?" method="post">
                 <div class="card mb-4">
                     <div class="card-header">Account Details</div>
                     <div class="card-body">
@@ -129,7 +90,7 @@ if(isset($_POST['submit'])) {
                                 </div>
                             </div>
                             <!-- Save changes button-->
-                            <button class="btn btn-primary" type="submit" name="submit">Submit</button>
+                            <button class="btn btn-primary" type="submit" value="registor" name="submit">Submit</button>
                             </form>
                     </div>
                 </div>
