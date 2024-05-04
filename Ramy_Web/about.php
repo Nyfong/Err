@@ -72,7 +72,7 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="./registration.php" class="user_link">
+            <a href="../Ramy_Web//phpmyadmin//registration.php"class="user_link">
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
               <a class="cart_link" href="#">

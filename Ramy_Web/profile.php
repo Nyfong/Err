@@ -16,7 +16,7 @@
                 <a class="nav-link ms-0" href="./profile.php" >Profile</a>
                <a class="nav-link active" href="./activity.php" >Activity</a>
                <a class="nav-link" href="./notivication.php"  >Notifications</a>
-                <a class="nav-link" href="./index.php"  >Shopping</a>
+                <a class="nav-link" href="./menu.php"  >Shopping</a>
                 </ol>
               </nav>
               <!-- /Breadcrumb -->
